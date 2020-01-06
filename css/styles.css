@@ -93,7 +93,7 @@ header {
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #FFFFFF;
+  background: #F1E8F7;
 }
 .projects a {
   color: #2F3061;
@@ -116,6 +116,22 @@ header {
   margin-top: 0;
 }
 
+/* Gallery
+------------------------------------*/
+{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 20;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 /* Work Experience
 ------------------------------------*/
@@ -123,11 +139,10 @@ header {
   background: #F1E8F7;
 }
 
-
-
 /* Education
 ------------------------------------*/
 .education {
+  color: #343434;
   background-image: url(../images/post-its.jpg);
   background-size: cover;
   background-position: top right;
